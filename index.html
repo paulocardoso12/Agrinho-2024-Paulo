@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
+  <!--começo HTML-->
+
   <head>
+    <!--começo cabeçalho de informações internas do site-->
     <title>Do campo à cidade, colhendo oportunidades</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="stilo.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,22 +17,28 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Lustria&display=swap"
       rel="stylesheet"
-    />
-  </head>
+    /></head
+  ><!--fim cabeçalho de informações internas do site-->
+
   <body>
+    <!--Começo corpo do site BODY-->
+
     <!--section header  -->
     <header>
+      <!--começo cabeçalho visual do site-->
       <div class="banner img">
         <img class="logo__principal" src="img/logo.png" alt="Logo" />
         <h1 class="texto__banner">
           Agrofloresta e a importância da polinização.
         </h1>
         <p class="banner__botao">NRE IVAIPORÃ</p>
+        <br />
       </div>
     </header>
+    <!-- fim cabeçalho visual do site-->
 
-    <!--section secundario -->
-    <section class="container secundario">
+    <!-- primeira seção -->
+    <section class="container">
       <div class="container__descricao">
         <p class="descricao__titulo">O que é uma Agrofloresta?</p>
         <p class="descricao__texto">
@@ -47,33 +56,43 @@
       <img
         src="img/bananas.png"
         alt="imagem de um bananal"
-        class="secundario__image"
+        class="container__imagem"
       />
     </section>
 
-    <!--Section lista  -->
+    <!--  fim da primeira seção -->
 
-    <section class="container-lista">
-      <h2 class="img__titulo">A produção de mel.</h2>
-      <ul class="img__lista">
-        <li>
-          <img src="img/1.png" alt="Homen colhendo mel" />
-        </li>
-        <li>
-          <img src="img/2.png" alt="Homen colhendo mel" />
-        </li>
-        <li>
-          <img src="img/3.png" alt="homen coletando mel" />
-        </li>
-      </ul>
-      <h2 class="img__subtitulo">
-        As abelhas são responsáveis pela produção de mel, cera e outros produtos
-        apícolas que podem representar uma fonte adicional de renda para os
-        agricultores
-      </h2>
+    <!-- segunda seção lista -->
+
+    <section>
+      <div class="container__titulo">
+        <p class="img__titulo">A produção de mel.</p>
+      </div>
+
+      <div class="img__lista">
+        <div>
+        <img src="img/1.png" alt="Homen colhendo mel" />
+      </div>
+      <div>
+        <img src="img/2.png" alt="Homen colhendo mel" />
+      </div>
+      <div></div>
+        <img src="img/3.png" alt="homen coletando mel" />
+      </div>
+      </div>
+
+      <div class="container__subtitulo">
+        <h2 class="img__subtitulo">
+          As abelhas são responsáveis pela produção de mel, cera e outros
+          produtos apícolas que podem representar uma fonte adicional de renda
+          para os agricultores
+        </h2>
+      </div>
     </section>
 
-    <!--section info -->
+    <!-- fim da segunda seção lista -->
+
+    <!--terceira seção informações  -->
     <section class="container info">
       <div class="info__img img">
         <div class="caixa__texto">
@@ -86,16 +105,19 @@
         </div>
       </div>
     </section>
-    <!--section contato -->
-    <section class="container secundario">
+
+    <!-- fim da terceira seção informações -->
+
+    <!-- quarta seção contato   -->
+    <section class="container contato">
       <img
         src="img/pote-mel.png"
         alt="ilustração de potes de mel"
-        class="secundario__image"
+        class="contato__image"
       />
-      <div class="container__descricao">
-        <p class="descricao__titulo">Contato</p>
-        <p class="descricao__texto">Luzia</p>
+      <div class="contato__container">
+        <p class="contato__titulo">Contato</p>
+        <p class="contato__texto">Luzia</p>
         <br />
         <br />
         <p class="contato email">
@@ -109,7 +131,10 @@
         </p>
       </div>
     </section>
-    <!--Footer-->
+
+    <!-- fim quarta seção contato -->
+
+    <!--rodapé   
     <button id="btnscrollToTop"></button>
     <footer class="rodape">
       <img src="img/logo.png" alt="ceaa" class="rodape__logo" />
@@ -136,7 +161,13 @@
       <p class="rodape__texto">Site modelo Agrinho 2024</p>
       <p class="rodape__texto">® 2024 -NRE IVAIPORÃ</p>
     </footer>
+ -->
+    <!-- fim rodapé-->
 
+    <!--Javascript-->
     <script src="main.js"></script>
+    <!--fim Javascript-->
   </body>
+  <!--fim corpo site BODY-->
 </html>
+<!--fim HTML-->
