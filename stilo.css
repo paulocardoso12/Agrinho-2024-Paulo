@@ -26,11 +26,10 @@ a:link {
   text-decoration: none;
   color: var(--link);
 }
-a:visited {
-  color: var(--branco-principal);
+a.banner__botao:link {
+  color: #fff;
 }
-a.banner__botao:link,
-a.banner__botao:visited {
+a:visited {
   color: var(--branco-principal);
 }
 
@@ -81,7 +80,7 @@ a:active {
   font-weight: 400;
 }
 
-span.banner__botao {
+a.banner__botao {
   width: 180px;
   height: 30px;
   color: #fff;
@@ -286,9 +285,6 @@ span.banner__botao {
 .contato__titulo {
   /* contato */
   font-size: 50px;
-}
-.contato__image img {
-  width: 100%;
 }
 .contato__image img {
   width: 100%;
