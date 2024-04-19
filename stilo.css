@@ -287,6 +287,9 @@ span.banner__botao {
   /* contato */
   font-size: 50px;
 }
+.contato__image img {
+  width: 100%;
+}
 .contato__texto,
 .contato__email,
 .contato__fone,
