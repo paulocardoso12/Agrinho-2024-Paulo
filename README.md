@@ -8,3 +8,5 @@
  1. Abra o site do GitHub e faça login com sua conta [Clique aqui](https://github.com/)
  2. Depois de logado crie um FORK deste repositorio [Repositorio do curso](https://github.com/professorrichardson/Agrinho_2024_curso.git)
  3. Pronto agora podemos começar a programação do site basta clicar em code/ codespace para iniciar nosso ambiente de programação on-line.
+
+# [![Video de como fazer o fork ou clone](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwaQ0633pZrs)](https://www.youtube.com/watch?v=waQ0633pZrs)
