@@ -5,6 +5,7 @@
 }
 /* setup das variaveis*/
 :root {
+  --verde-fundo: #deece7;
   --branco-principal: #ffffff;
   --fonte-principal: "Lustria";
   --verde-principal: #5fb13b;
@@ -16,7 +17,7 @@
 
 /* configurações do corpo como fontes e cores*/
 body {
-  background-color: var(--cor-de-fundo);
+  background-color: var(--verde-fundo);
   color: var(--branco-principal);
   font-family: var(--fonte-principal);
   font-size: 20px;
@@ -158,6 +159,29 @@ a.cabecalho__botao {
 .secao4__fone,
 .secao4__endereco {
   font-size: 25px;
+}
+.secao4 {
+  display: flex;
+  justify-content: space-around;
+}
+.secao4__container {
+  flex-wrap: nowrap;
+  color: var(--preto-titulo);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+.secao4__titulo {
+  font-size: 50px;
+}
+.secao4__imagem img {
+  width: 100%;
+}
+
+.secao4__endereco {
+  text-align: center;
 }
 
 /* Rodapé */
@@ -315,7 +339,7 @@ a.cabecalho__botao {
     margin-bottom: 150px;
     font-size: 30px;
   }
-  
+
 /* estilo seção 1*/
   .secao1__descricao {
     text-align: center;
