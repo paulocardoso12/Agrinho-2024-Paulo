@@ -1,5 +1,5 @@
 #  **Agrinho: do campo à cidade, colhendo oportunidades**.
-# Formação Matematica II, NRE Ivaiporã,  NRE Apucarana
+# Formação Matematica II, NRE Ivaiporã, NRE Ivaiporã, Guarapuava e Pato Branco.
 ## [Clique aqui para ver o site de exemplo](https://professorrichardson.github.io/Agrinho-2024-formacao/)
 
 ### vamos iniciar nossa jornada utilizando o VsCode online que o próprio GitHub nos fornece pode ser usado a versão instalada no computador também.
